@@ -1,0 +1,248 @@
+$black: #2b150d;
+
+.header-top {
+  background-color: #2b150d;
+}
+
+.header-top > div {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  justify-content: space-between;
+}
+
+.header-top-left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  .location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .location-icon {
+      color: gold;
+    }
+    h5 {
+      font-weight: 400;
+      font-size: 13px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      .down {
+        color: #ff7a1b;
+      }
+    }
+  }
+}
+
+.header-top-right {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  a {
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+    transition: 0.3s;
+    &:hover {
+      color: #ff7a1b;
+      text-shadow: 0 0 3px #fff;
+    }
+  }
+}
+
+// HEADER-CENTER START
+.header-center {
+  background-color: #f9f8f3;
+}
+.header-center > div {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+.header-center-left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+  .center-left-colors {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+  }
+  h5 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+  }
+}
+
+.header-center-center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  .header-center-dates {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    h5 {
+      font-style: italic;
+      font-weight: 400;
+      font-size: 13px;
+      color: $black;
+      .true-icon {
+        color: #ffd634;
+      }
+    }
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    width: 758px;
+    height: 45px;
+    border: 1px solid rgba(128, 128, 128, 0.682);
+    border-radius: 6px;
+    background-color: #fff;
+    input {
+      width: 80%;
+      height: 100%;
+      width: 754px;
+      height: 42px;
+      border-radius: 6px;
+      border: none;
+      font-size: 16px;
+      padding: 10px;
+      color: #ffd400;
+    }
+    button {
+      width: 20%;
+      height: 100%;
+      background-color: #ffd400; /* Sariq rang */
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      position: relative;
+      border-radius: 0 4px 4px 0;
+      clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+      outline: none;
+    }
+  }
+}
+
+// HEADER CENTER RIGHT
+
+.header-center-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  .header-center-phone {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    h6 {
+      font-style: italic;
+      font-weight: 400;
+      font-size: 13px;
+      color: #000;
+      .oclock {
+        color: gold;
+      }
+    }
+    h4 {
+      font-weight: 300;
+      font-size: 18px;
+      color: #000;
+      span {
+        font-weight: 600;
+        color: black;
+        font-size: 18px;
+        color: #000;
+      }
+    }
+  }
+
+  .header-center-button {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h5 {
+      font-style: italic;
+      font-weight: 400;
+      font-size: 13px;
+      color: #000;
+      .pochta {
+        color: gold;
+      }
+    }
+    button {
+      border-radius: 6px;
+      width: 223px;
+      height: 44px;
+      background-color: #ff7a1b;
+
+      font-style: italic;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: #fff;
+      transition: 0.3s;
+      &:hover {
+        border: 2px solid #ff7a1b;
+        color: #ff7a1b;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.header-bottom > div {
+  display: flex;
+  align-items: center;
+  gap: 83px;
+  height: 50px;
+}
+
+.header-bottom-left {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  width: 268px;
+  height: 100%;
+  justify-content: center;
+  background-color: #ffd634;
+  gap: 15px;
+
+  .bars {
+    font-size: 24px;
+    color: #fff;
+  }
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.header-bottom-right {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  h4 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+  }
+}

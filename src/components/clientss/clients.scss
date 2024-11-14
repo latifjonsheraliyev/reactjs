@@ -1,0 +1,110 @@
+.otziv {
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+  margin-top: 50px;
+}
+
+.swiper-section {
+  background-color: #f9f8f3;
+}
+.swiper-section > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.swiper-card {
+  width: 448px;
+  height: 260px;
+  padding: 25px;
+
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .swiper-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+    .swiper-card-top-left {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      h4 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 97%;
+        color: #000;
+      }
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 97%;
+        color: grey;
+      }
+    }
+    .swiper-card-top-right {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      .stars {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: gold;
+      }
+      h5 {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 97%;
+        text-align: right;
+        color: black;
+      }
+    }
+  }
+  .swiper-card-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 144%;
+      color: #000;
+    }
+    a {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 144%;
+      text-decoration: underline;
+      color: #ff7a1b;
+    }
+  }
+}
+
+
+.yolgizbuton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    button{
+        width: 222px;
+height: 39px;
+background-color: #FF7A1B;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: center;
+color: #fff;
+border-radius: 3px;
+    }
+}

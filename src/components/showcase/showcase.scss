@@ -1,0 +1,58 @@
+.showcase > div {
+  background: url(./imges/showcase-bg.jpg);
+
+  height: 379px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  h2 {
+    font-family: "ABeeZee", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 124%;
+    color: #fff;
+  }
+}
+
+.showcase-line {
+  width: 445px;
+  padding: 10px;
+  background-color: #ff7a1b;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+
+  h4 {
+    font-family: "Actor", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 97%;
+    color: #ffff;
+  }
+}
+
+// start showcase end style
+
+.showcase-end > div {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.showcase-end-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  h5 {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 126%;
+    letter-spacing: -0.01em;
+    color: #2d170c;
+  }
+}

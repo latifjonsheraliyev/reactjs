@@ -1,0 +1,1 @@
+import "./hotsale.scss";
